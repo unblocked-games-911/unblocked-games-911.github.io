@@ -1,4 +1,5 @@
 User-agent: *
 
-Disallow: /themes
+Disallow: /themes/
+Disallow: /tag/
 
