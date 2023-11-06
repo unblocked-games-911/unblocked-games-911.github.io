@@ -207,8 +207,8 @@ body {
   flex-direction: column;
 }
 
-/* làm thẻ con ngay bên dưới <body> và ngay trên thẻ <footer> 
-Để tất cả các mục linh hoạt có cùng độ dài, bất kể nội dung của nó: */
+/* lÃ m tháº» con ngay bÃªn dÆ°á»›i <body> vÃ  ngay trÃªn tháº» <footer> 
+Äá»ƒ táº¥t cáº£ cÃ¡c má»¥c linh hoáº¡t cÃ³ cÃ¹ng Ä‘á»™ dÃ i, báº¥t ká»ƒ ná»™i dung cá»§a nÃ³: */
 .content {
   /* IE 10 */
   -ms-flex: 1;
@@ -930,16 +930,16 @@ ul {
 }
 
 .filter__search:hover input {
-  /* border-color: var(--theme-color); */
+  border-color: var(--theme-color);
 }
 
 .filter__search input {
-  /* height: 50px;
+  height: 50px;
   background-color: var(--gray3);
   color: var(--white);
   border-radius: 100px;
   border: 2px solid var(--red);
-  padding: 0 60px 0 20px; */
+  padding: 0 60px 0 20px;
 }
 
 .filter__search input:focus {
@@ -979,145 +979,6 @@ ul {
   .filter__search input {
     width: 100%;
   }
-}
-
-/* =============== Search ============== */
-.search-wrap {
-  position: relative;
-}
-
-.search-term {
-  color: var(--white);
-  padding: 0 60px 0 20px;
-  border-radius: 12px;
-  height: 50px;
-  background-color: var(--gray3);
-  border: 2px solid var(--red);
-}
-
-.btn-search {
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  padding-right: 12px;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  padding: 0px 15px;
-}
-
-.btn-search:hover {
-  /* background-color: rgba(255, 255, 255, 0.08); */
-}
-
-.search-all .btn-search {
-  cursor: unset;
-}
-
-.btn-search svg {
-  fill: var(--gray);
-  display: block;
-  width: 20px;
-  height: 20px;
-}
-
-/* ======== search-more ======== */
-.search-all {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-}
-
-.search-more {
-  position: absolute;
-  inset: 40px 0 auto 0;
-  background-color: var(--gray3);
-  border-radius: 12px;
-  /* transform: translate(257px, 62px); */
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--gray);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  -webkit-transition: visibility 0s, all 0.15s ease-in-out;
-  -o-transition: visibility 0s, all 0.15s ease-in-out;
-  transition: visibility 0s, all 0.15s ease-in-out;
-  max-height: 300px;
-}
-
-.border-top2 {
-  border: 1px solid var(--theme-color);
-  border-top-left-radius: unset;
-  border-top-right-radius: unset;
-  border-top: unset;
-  padding-top: 12px;
-}
-
-.border-bottom {
-  border: 1px solid var(--theme-color);
-  border-bottom-left-radius: unset;
-  border-bottom-right-radius: unset;
-  border-bottom: unset;
-}
-
-.games-show-item {
-  width: 100%;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 6px 15px;
-  color: var(--gray);
-  text-transform: capitalize;
-}
-
-.games-show-title {
-  padding-left: 12px;
-  font-weight: 700;
-}
-
-.search-end {
-  text-align: center;
-  padding: 0 16px 12px;
-  width: 100%;
-}
-
-.games-show-item:hover {
-  /* background: #1f2059; */
-  color: var(--theme-color);
-}
-
-.games-show-img {
-  border-radius: 6px;
-}
-
-.search-more::-webkit-scrollbar-thumb {
-  border-radius: 30px;
-}
-
-.search-more::-webkit-scrollbar-thumb {
-  background: var(--gray);
-  border-radius: 30px;
-}
-
-.search-more::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
-  /* background: rgb(55, 57, 82); */
-  border-bottom-right-radius: 12px;
-}
-
-.hidden-search {
-  display: none;
 }
 
 /*============================== game_item.php ==============================*/
@@ -1193,7 +1054,7 @@ ul {
   text-align: center;
   padding: 16px 8px;
   display: flex;
-  /* cho chữ nó ở cuối */
+  /* cho chá»¯ nÃ³ á»Ÿ cuá»‘i */
   align-items: flex-end;
   justify-content: center;
   background: linear-gradient(to bottom, rgba(19, 19, 21, 0.1) 0%, rgba(19, 19, 21, 0.45) 75%, rgba(19, 19, 21, 0.76) 100%);
@@ -1221,8 +1082,7 @@ ul {
 /*============================== is_home2 ==============================*/
 .category-column-nav {
   display: block;
-  /* height: calc(100vh - 236px); */
-  height: calc(100vh - 130px);
+  height: calc(100vh - 236px);
   overflow-y: scroll;
 }
 
